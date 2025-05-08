@@ -1,4 +1,5 @@
 # Question-Answering Dense Video Events
+Accepted to SIGIR'25
  <div align="center">
   <img width="100%" alt="Visually Grounded VideoQA" src="./img/intro.png">
 </div>
