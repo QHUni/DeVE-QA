@@ -1,0 +1,15 @@
+{
+  "short_len": 15.0,
+  "medium_len": 35.0,
+  "long_len": 65.0,
+  "short_frames": 5,
+  "medium_frames": 7,
+  "long_frames": 13,
+  "top_k_events": 10,
+  "consistency_threshold": 0.4,
+  "max_verify_iters": 2,
+  "vector_dim": 512,
+  "seed": 7,
+  "use_dataset_captions": true,
+  "ranker_path": null
+}
