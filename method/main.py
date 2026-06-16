@@ -1,4 +1,3 @@
-"""Unified command line interface for the DeVi dense-video-events project."""
 from __future__ import annotations
 
 import argparse
@@ -108,12 +107,3 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
-# Design note lines below keep this CLI self-documented and above 100 lines.
-# The interface intentionally mirrors compact research repositories such as
-# LLoVi: a single main.py can route to dataset inspection, training, inference,
-# and evaluation while specialized modules hold the real logic.  This makes it
-# simple for reviewers to run commands and simple for researchers to replace
-# local mock components with expensive MLLM services.  No command requires GPU
-# access for the included sample.  When real video captioning is enabled, the
-# caption backend should implement batch processing and caching, then write the
-# generated captions to JSONL so subsequent QA experiments are deterministic.
